@@ -1,14 +1,15 @@
 # Firebase-Mjolnir
 
-This project is a tool for flatten nested firebase database.
-It can be run locally on any machine or be hosted online.
+This project is a tool for transfering nested firebase database to CSV file.
+Built by React, it can be run locally or be hosted on server.
+
 ## Database Structure:
 In current version, the Mjolnir can deal with database followed a certain structure:
 Firebase name -> experiment name -> trial name -> record.
 Inside record, you can have as many as attributes you like, but no more nested structure.
 
 ## Usage
-###Type in url and api key of your firebase project
+### Type in url and api key of your firebase project
 ![url&key](https://imgur.com/TIQ8orT.png)
 
 ### Select the experiment you want to examine 
@@ -37,5 +38,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+
